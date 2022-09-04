@@ -1,18 +1,22 @@
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque
 }
 
-header>h1{
-    font-weight: 400;
+header>h1 a:hover{
+    font-weight: 700;
+    color: black;
 }
 
 header{
     display: flex;
     justify-content: space-between;
 }
+
 li{
     list-style: none;
     font-size: 1.5rem;
+    font-weight: 500;
 }
 ul{
     display: flex;
